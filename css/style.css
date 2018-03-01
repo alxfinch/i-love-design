@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body{
+	font-family: "Segoe UI", sans-serif;
+	background-image: url('../css/img/bg.png');
+}
+header {
+	padding-top: 4.2%;
+	padding-bottom: 2.7%;
+	background-color: #23232E;
+	text-align: center;
+}
+h1 {
+	padding-top: 9.8%;
+	padding-bottom: 3.3%;
+	text-transform: uppercase;
+	font-size: 80px;
+	font-weight: 700;
+	color: white;
+}
+header p {
+	display: inline-block;
+	width: 22%;
+	font-size: 18px;
+	line-height: 1.667;
+	color: white;
+	padding-bottom: 10%;
+}
+a {
+	font-size: 30px;
+}
+main {
+	padding-top: 6.6%;
+}
+.some>p {
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1.4;
+	color: #464B4F;
+	padding-bottom: 1.4em;
+}
+.some {
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+}
+.some p:last-child {
+	padding-bottom: 0;
+}
+.what {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 80px;
+	font-weight: 700;
+	color: #464B4F;
+}
+.what>div {
+	padding-top: 4%;
+	display: inline-block;
+	width: 15%;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 2.333;
+	text-transform: uppercase;
+	color: #464B4F;
+	text-align: left;
+	padding-bottom: 2%;
+}
+.what>div>p {
+	font-size: 18px;
+	line-height: 1.667;
+	color: #888A8B;
+	text-align: left;
+	padding-left: 3px;
+}
+.what>div:nth-child(3) {
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+}
+i {
+	border: 3px solid white;
+	border-radius: 50%;
+	color: #FFF;
+}
